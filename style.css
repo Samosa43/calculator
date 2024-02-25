@@ -39,6 +39,7 @@ main{
     border-color:#D7E4C0 ;
 }
 
+
 input{
     width: 98%;
     height: 80px;
@@ -84,3 +85,13 @@ grid-template-rows: 6em 6em 6em 6em 6em;
     .clear{
         background-color: rgb(210, 151, 91);
     }
+ @media only screen and (max-width:550px)
+    {
+        body{
+            background-color: #93a393;
+     }
+     .bor{
+        width: 80vw; 
+     }
+     
+}
