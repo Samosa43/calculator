@@ -90,8 +90,14 @@ grid-template-rows: 6em 6em 6em 6em 6em;
         body{
             background-color: #93a393;
      }
-     .bor{
-        width: 80vw; 
+
+.bor{
+        width: 95vw; 
+     .numpad{
+       grid-template-columns: 4.8em 4.8rem 4.8rem 4.8rem;
+     }
+     #equal{
+        width: 150px;
      }
      
 }
